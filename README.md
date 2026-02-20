@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="media/nuacom-logo.png" alt="NUACOM Logo" width="120" />
+	<img src="media/nuacom.png" alt="NUACOM Logo" width="120" />
 </p>
 
 # NUACOM Playwright Test Suite
@@ -13,7 +13,7 @@ This was a self-directed project. I came in with no prior experience in automate
 ## The Site Under Test
 
 <p align="center">
-	<img src="media/test-finished-1" alt="NUACOM Homepage Screenshot" width="600" />
+	<img src="media/test-finished-1.png" alt="NUACOM Homepage Screenshot" width="600" />
 </p>
 
 NUACOM is an Irish business phone and VoIP solutions provider. Their website is built on WordPress with Elementor, and uses HubSpot extensively — for a contact modal form, a live chat widget, and tracking scripts. This made it a genuinely interesting target for automated testing because:
