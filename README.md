@@ -119,23 +119,6 @@ The original test plan written before implementation, showing the gap between pl
 
 ## Notes
 
----
-
-## Demo Screenshot
-
-<p align="center">
-    <img src="media/test-finished-1.png">
-</p>
-
-## Demo Video
-
-<p align="center">
-	<video width="600" controls>
-		<source src="media/video.webm" type="video/webm">
-		Your browser does not support the video tag.
-	</video>
-</p>
-
 - The HubSpot contact form is **never submitted** — fields are filled and assertions are made, but the submit button is not clicked. This avoids sending test data to NUACOM's live CRM.
 - Auth storage state (cookie consent) is captured once per browser via `auth.setup.ts` and reused across the suite to avoid re-dismissing banners on every test.
 - `test-results/`, `playwright-report/`, and `playwright/.auth/` are git-ignored.
